@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="claro">#30D2FeFe</color>
+    <color name="victoria">#5000FF40</color>
+    <color name="derrota">#50FF3333</color>
+    <color name="empate">#30000000</color>
+    <color name="dorsal">#80F7CD5C</color>
+    <color name="jugador">#FFD7FFFA</color>
+
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:background="@color/claro"
+        android:orientation="vertical"
+        android:id="@+id/padrejugadores">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/fondo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:text="EQUIPO"
+
+                    android:layout_marginBottom="20dp"
+                    android:id="@+id/jequipoNombre"
+                    android:layout_marginLeft="100dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Large"
+                android:text="Plantilla"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@android:id/empty"
+            android:text="@string/noJugadores"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center" />
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp"
+            android:id="@android:id/list"
+            android:divider="#000000"
+            android:dividerHeight="3px"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"></ListView>
+    </LinearLayout>
+
+
+
+
